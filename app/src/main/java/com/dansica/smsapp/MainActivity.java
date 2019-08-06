@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
 
                     Toast.makeText(MainActivity.this, "Message Sent", Toast.LENGTH_LONG).show();
                 }
+
+                contentEt.setText("");
             }
         });
 
