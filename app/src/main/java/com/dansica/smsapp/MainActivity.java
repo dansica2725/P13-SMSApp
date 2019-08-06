@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 String to = toEt.getText().toString();
                 String content = contentEt.getText().toString();
 
-                String[] split = toEt.getText().toString().split(",");
+                String[] split = to.split(",");
 
                 for (String i : split) {
                     smsManager = SmsManager.getDefault();
